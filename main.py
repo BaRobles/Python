@@ -8,7 +8,7 @@ while True:
   while attempts < 6:
   
     x = int(input("Try to guess! Enter a number between 1 or 25: "))
-  
+
     if(num < x): 
       print("Too high!")
       
